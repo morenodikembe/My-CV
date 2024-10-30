@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head><title>My Website</title>
+
+        <style>
+            .footer{
+                text-align: center;
+                padding: 10px;
+                background-color: #ddd;
+            }
+
+            table{
+                width: 100%;
+                border: 1px solid black;
+            }
+
+            dt{
+                font-weight: bold;
+                font-size: 1.2em;
+            }
+
+            section{
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <header class="header"><h1>Dikembe O. Moreno Resume</h1></header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#Exp">Experience</a></li>
+                <li><a href="#Edu">Education</a></li>
+                <li><a href="#Int">Interests</a></li>
+                <li><a href="#Ski">Skills</a></li>
+                <li><a href="#Con">Contact</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <p>Welcome to my website, hope you enjoy it.</p>
+            <hr>
+            <p>My name is Dikembe Moreno</p>
+            <img width="200px" height="200px" src="my pic.jpg" alt="my pic">
+        </article>
+
+        <section id="Exp">
+            <h2>Experience</h2>
+            <table>
+                <colgroup>
+                    <col span="1" style="background-color: #ddd;">
+                </colgroup>
+                <tr>
+                    <th>Company</th>
+                    <th>Details</th>
+                    <th>Years</th>
+                </tr>
+                <tr>
+                    <th>OpsWerks</th>
+                    <th>Automation Tester</th>
+                    <th>August 2024 - Present</th>
+                </tr>
+                <tr>
+                    <th>RCG</th>
+                    <th>Automation Developer</th>
+                    <th>March 2020 - April 2024</th>
+                </tr>
+                <tr>
+                    <th>Trend Micro</th>
+                    <th>Cloud Security Engineer</th>
+                    <th>September 2019 - February 2020</th>
+                </tr>
+            </table>
+        </section>
+
+        <section id="Edu">
+            <h2>Education</h2>
+            <dl>
+                <dt>My University</dt>
+                <dd>Adamson University</dd>
+                <dt>Degree</dt>
+                <dd>BSIT</dd>
+            </dl>
+        </section>
+
+        <section id="Int">
+            <h2>Interests</h2>
+            <ul>
+                <li>Computer</li>
+                <li>E-Sports</li>
+                <li>Guitar</li>
+            </ul>
+        </section>
+
+        <section id="Ski">
+            <h2>Skills</h2>
+            <ol>
+                <li>Python</li>
+                <li>Javascript</li>
+                <li>Selenium</li>
+                    <ul>
+                        <li>BDD</li>
+                        <li>Cucumber</li>
+                        <li>Gherkin</li>
+                    </ul>
+            </ol>
+        </section>
+
+        <section id="Con">
+            <h2>Contact</h2>
+            <p>
+                Contact me at my email
+                <a href="mailto:morenodikembe@gmail.com">My Email Address</a>
+            </p>
+        </section>
+
+        <footer class="footer">Copyright (c) 2024 Dikembe Moreno content please contact me to find out more</footer>
+    </body>
+</html>
